@@ -848,7 +848,7 @@ button {
     font-weight: bold;
 }
 .email_text {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
     padding-top: 120px;
@@ -901,13 +901,13 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-image: url(../images/footer-bg.png);
-    height: auto;
-    padding-top: 250px;
-    background-size: 100% 100%;
-    padding-bottom: 30px;
+    background-image: url(../media/About.png);
+    height: 100%;
+    padding-top: 54.64%;
+    background-size: cover;
+    background-position: center; 
     background-repeat: no-repeat;
-}
+    }
 
 .input_btn_main {
     width: 50%;
@@ -920,11 +920,13 @@ button {
 
 .mail_text {
     width: 100%;
-    float: left;
+    float: center;
     font-size: 18px;
     color: #2b2c2c;
+    
     background-color: #ffffff;
     height: auto;
+    padding-left: 25%; 
     padding: 5px 20px;
     border-radius: 20px;
     border: 0px;
@@ -938,7 +940,7 @@ button {
     width: 170px;
     float: left;
     font-size: 18px;
-    color: #2b2278;
+    color: #ffffff;
     background-color: transparent;
     padding: 5px 0px;
     text-align: center;
@@ -948,7 +950,7 @@ button {
 
 .subscribe_bt a:hover {
     color: #000;
-    background-color: transparent;
+    background-color: #cce464;
 }
 
 .social_icon {
@@ -991,6 +993,10 @@ button {
 .call_text a:hover {
     color: #e27141;
 }
+.call_text img {
+    max-width: 5%; 
+    height: auto;
+}
 
 
 /* footer section end */
@@ -998,7 +1004,7 @@ button {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #122c2d;
+    background-color: #cce464;
     height: auto;
 }
 
